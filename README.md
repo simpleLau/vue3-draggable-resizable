@@ -49,7 +49,7 @@
 ## 安装使用
 
 ```bash
-$ npm install --save vue3-draggable-resizable
+$ npm install --save vue3-draggable-resizable-editor
 ```
 
 全局注册组件
