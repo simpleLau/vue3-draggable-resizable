@@ -25,7 +25,6 @@
         :snapTolerance="1"
         @refLineParams="getRefLineParams"
       >
-        <!-- :isConflictCheck="true" -->
         <component :is="item.type" v-bind="item">
           {{ item }}
         </component>

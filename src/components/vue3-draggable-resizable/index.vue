@@ -856,7 +856,6 @@ export default defineComponent({
       if (state.dragging) {
         state.dragging = false;
         conflictCheck();
-        console.log(refLine);
         emit('refLineParams', refLine);
         emit('dragstop', state.left, state.top);
       }
